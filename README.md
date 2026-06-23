@@ -408,5 +408,3 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) Section 8 for the full per-component line
 ## Acknowledgements
 
 This work builds on the Pathomic Fusion benchmark + protocol (Chen et al. 2020), foundation-model encoders from UNI (Mahmood Lab) and BulkRNABert (InstaDeep), the classical PAL recipe from BMLSurv, and the GradMod gradient-modulation technique from Path-GPTOmic.
-
-The naming convention internal to the codebase (`GenoDistilCPKF`, `SlimCPKFFusion`, `"slim_cpkf"`) is kept stable across the rename to HyPAL-Surv / HGBF for cached-results compatibility. See `hypal_surv/__init__.py` for the alias mapping.
