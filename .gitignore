@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+
+# Virtual envs
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints (too large for git)
+*.pth
+*.pt
+*.ckpt
+
+# Raw data and encoded features (must be downloaded from TCGA / generated from BulkRNABert)
+*.npz
+*.h5
+data/
+raw/
+
+# Training logs (kept locally for reproducibility, not pushed)
+*.log
+logs/

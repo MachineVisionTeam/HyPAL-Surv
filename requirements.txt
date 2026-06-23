@@ -1,0 +1,19 @@
+# HyPAL-Surv runtime requirements
+# Core deep-learning
+torch>=2.0
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+
+# Survival analysis (Cox loss, KM curves, log-rank test, c-index)
+lifelines>=0.27
+
+# Statistical tests (paired t-test, Wilcoxon signed-rank)
+scipy>=1.10
+
+# Plotting
+matplotlib>=3.7
+seaborn>=0.12
+
+# Notebooks (optional)
+jupyter>=1.0
